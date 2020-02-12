@@ -5,6 +5,53 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js" integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4=" crossorigin="anonymous"></script>
 
+  <style>
+    body {
+    background-color: black;
+}
+h1 {
+  color: white;
+  margin-left: 20px;
+}
+h2 {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+}
+#TLine2{
+    stroke: blue;
+}
+#Vibrato-2 {
+    stroke: red;
+}
+svg {
+    fill: white;
+}
+.TimeLine {
+  width: 1257px;
+  height: 13px;
+  background: #fff;
+  position: relative;
+  top:-5px;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+}
+@keyframes example {
+  from {left: -1280px;}
+  to {left: 20px;}
+}
+.ball {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+  </style>
+  
   <head>
 <h1><u>Learn by doing</u></h1>
 <h2>Alan Perrin</h2>
